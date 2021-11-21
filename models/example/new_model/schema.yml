@@ -1,0 +1,14 @@
+
+version: 2
+
+sources:
+  - name: order_customer_joined
+    description: 'Creating a table after joining 2 different sources.'
+    database: SNOWFLAKE_SAMPLE_DATA
+    schema: TPCH_SF1
+    tables:
+      - name: orders
+      - name: customer
+  
+
+
